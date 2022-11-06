@@ -7,7 +7,7 @@ const Product = require('./models/product');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://Elokil:Silbena87@cluster0.cmgmjbc.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Elokil:****@cluster0.cmgmjbc.mongodb.net/?retryWrites=true&w=majority',
 {useNewUrlParser:true,
 useUnifiedTopology: true}).then(()=>console.log('Connexion à MongoDB réussi !!')).catch(()=> console.log('Connexion à mongoDb échouée !!'));
 
